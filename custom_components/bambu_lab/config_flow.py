@@ -46,8 +46,8 @@ PRINTER_SELECTOR = SelectSelector(
     )
 )
 SUPPORTED_MODES = [
-    SelectOptionDict(value="Bambu", label="Bambu Cloud MQTT Connection"),
     SelectOptionDict(value="Lan", label="Local MQTT Connection"),
+    SelectOptionDict(value="Bambu", label="Bambu Cloud MQTT Connection"),
 ]
 MODE_SELECTOR = SelectSelector(
     SelectSelectorConfig(
